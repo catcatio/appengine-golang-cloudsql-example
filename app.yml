@@ -1,0 +1,7 @@
+runtime: go111
+main: ./cmd/srv
+
+env_variables:
+  CLOUDSQL_CONNECTION_NAME: catcat-development:asia-southeast1:shio-development-db
+  CLOUDSQL_USER: webservice
+  CLOUDSQL_PASSWORD: unittestisimportant
